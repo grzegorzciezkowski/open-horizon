@@ -23,4 +23,4 @@ Provides:
 - detailed API references for both client and server,
 - data schemas (e.g., ships, factions, resources),
 - contribution guidelines for the open source community,
-- an overview of the game’s storyline,
+- overview of the game’s storyline,
