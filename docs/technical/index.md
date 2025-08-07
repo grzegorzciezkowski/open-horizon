@@ -1,0 +1,6 @@
+# Scenes
+
+| Scene Name        | Description                                                                                                                                                                                                                        |
+|-------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| 
+| **SandBoxScene**  | An open test environment used to experiment with core gameplay mechanics. Players can control ships, test systems (movement, physics, UI, interactions), and explore prototype features without narrative or gameplay constraints. |
+| **MainMenuScene** | The game's starting screen, where the player is welcomed and can navigate to begin gameplay. Includes the game logo, navigation buttons (Start, Options, Exit), and later on, login features, version info, and a changelog.       |
