@@ -2,4 +2,4 @@
 
 - Installation Guide (TBD)
 - Getting started
-  - Main menu
+  - [Main menu](main_menu.md)
