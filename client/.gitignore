@@ -12,3 +12,5 @@
 
 # Recordings can get excessive in size
 /[Rr]ecordings/
+
+/.vs/
