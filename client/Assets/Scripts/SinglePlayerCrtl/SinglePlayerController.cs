@@ -6,7 +6,6 @@ public class SinglePlayerController : MonoBehaviour
 
     private Spacecraft mSpacecraft;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         mSpacecraft = Vessel.GetComponent<Spacecraft>();
