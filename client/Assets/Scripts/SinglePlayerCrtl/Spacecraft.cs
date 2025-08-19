@@ -49,7 +49,7 @@ public class Spacecraft : MonoBehaviour
     {
         float deltaVelocityY = Agility * Time.deltaTime;
 
-        rb.transform.eulerAngles += new Vector3(0, deltaVelocityY, 0);
+        rb.transform.Rotate(new Vector3(0, deltaVelocityY, 0), Space.World);
         rb.linearVelocity = transform.forward * Speed;
     }
 

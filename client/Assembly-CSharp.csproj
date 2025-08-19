@@ -62,10 +62,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\MainMenu\ExitGame.cs" />
+    <Compile Include="Assets\Scripts\Settings\ControlsSettings.cs" />
+    <Compile Include="Assets\Scripts\Settings\GraphicsSettings.cs" />
     <Compile Include="Assets\Scripts\SinglePlayerCrtl\SpacecraftFollower.cs" />
+    <Compile Include="Assets\Scripts\MainMenu\InputControl.cs" />
+    <Compile Include="Assets\Scripts\MainMenu\MainMenuSettingsController.cs" />
     <Compile Include="Assets\Scripts\SinglePlayerCrtl\SinglePlayerController.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Scripts\MainMenu\PanelSwitcher.cs" />
+    <Compile Include="Assets\Scripts\Settings\SoundsSettings.cs" />
+    <Compile Include="Assets\Scripts\Settings\GameSettings.cs" />
     <Compile Include="Assets\Scripts\SinglePlayerCrtl\Spacecraft.cs" />
   </ItemGroup>
   <ItemGroup>
