@@ -4,9 +4,18 @@
 - Classes:
   - Mono-behaviours:
     - [ExitGame](classes/ExitGame.md)
+    - [InputControl](classes/InputControl.md)
+    - [MainMenuSettingsControl](classes/MainMenuSettingsController.md)
     - [PanelSwitcher](classes/PanelSwitcher.md)
     - [SinglePlayerController](classes/SinglePlayerController.md)
     - [Spacecraft](classes/Spacecraft.md)
     - [SpacecraftFollower](classes/SpacecraftFollower.md)
-    
-  
+  - Settings:
+    - [ControlsSettings](classes/settings/ControlsSettings.md) 
+    - [GameSettings](classes/settings/GameSettings.md)
+    - [GraphicsSettings](classes/settings/GraphicsSettings.md)
+    - [SoundsSettings](classes/settings/SoundsSettings.md)
+- Enums:
+  - Settings:
+    - [AntiAliasing](enums/settings/AntiAliasing.md)
+    - [ControlAction](enums/settings/ControlAction.md)
