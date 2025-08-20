@@ -24,8 +24,15 @@ Options:
 ## Multi player menu
 Here we have possibility to register in the official or private Genesis Network. 
 
-## Options
-Game options such as Level of details, sound volume etc. More information soon.
+## Options menu:
+Options:
+
+| Option name | Description                                                              |
+|-------------|--------------------------------------------------------------------------|
+| Graphics    | Allows you to change graphical settings.                                 |
+| Sounds      | Lets you adjust the volume of background music and sound effects.        |
+| Controls    | Enables you to rebind the keyboard keys assigned to spacecraft actions.  |
+| Back        | Return to the main menu.                                                 |
 
 ## Community hub menu
 Information like a dictionary about lore of the game, github repository, soundtrack from game etc.
