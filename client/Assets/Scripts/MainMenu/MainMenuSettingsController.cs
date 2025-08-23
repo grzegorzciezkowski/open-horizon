@@ -5,8 +5,6 @@ using Assets.Scripts.Settings;
 
 public class MainMenuSettingsController : MonoBehaviour
 {
-    public GameSettings gameSettings;
-
     public TMP_Dropdown antiAliasingInput;
 
     public Slider musicVolumeInput;
@@ -22,37 +20,37 @@ public class MainMenuSettingsController : MonoBehaviour
 
     void Start()
     {
-        gameSettings = GameSettings.Load(GameSettingsManager.settingPath);
+        GameSettingsManager.LoadSettings();
 
-        antiAliasingInput.value = (int)gameSettings.graphics.antiAliasing;
-        musicVolumeInput.value = gameSettings.sounds.musicVolume;
-        soundEffectVolumeInput.value = gameSettings.sounds.soundEffectsVolume;
+        antiAliasingInput.value = (int)GameSettingsManager.gameSettings.graphics.antiAliasing;
+        musicVolumeInput.value = GameSettingsManager.gameSettings.sounds.musicVolume;
+        soundEffectVolumeInput.value = GameSettingsManager.gameSettings.sounds.soundEffectsVolume;
 
-        accelerateInput.text = gameSettings.controls.Accelerate.ToString();
-        decelerateInput.text = gameSettings.controls.Decelerate.ToString();
-        pullUpInput.text = gameSettings.controls.PullUp.ToString();
-        pullDownInput.text = gameSettings.controls.PullDown.ToString();
-        turnLeft.text = gameSettings.controls.TurnLeft.ToString();
-        turnRight.text = gameSettings.controls.TurnRight.ToString();
+        accelerateInput.text = GameSettingsManager.gameSettings.controls.Accelerate.ToString();
+        decelerateInput.text = GameSettingsManager.gameSettings.controls.Decelerate.ToString();
+        pullUpInput.text = GameSettingsManager.gameSettings.controls.PullUp.ToString();
+        pullDownInput.text = GameSettingsManager.gameSettings.controls.PullDown.ToString();
+        turnLeft.text = GameSettingsManager.gameSettings.controls.TurnLeft.ToString();
+        turnRight.text = GameSettingsManager.gameSettings.controls.TurnRight.ToString();
     }
 
     public void SetAntiAliasing(int optionIndex)
     {
-        gameSettings.graphics.antiAliasing = (AntiAliasing)optionIndex;
-        GameSettings.Save(gameSettings, GameSettingsManager.settingPath);
+        GameSettingsManager.gameSettings.graphics.antiAliasing = (AntiAliasing)optionIndex;
+        GameSettingsManager.SaveSettings();
     }
 
     public void SetMusicVolume(float value)
     {
-        gameSettings.sounds.musicVolume = value;
+        GameSettingsManager.gameSettings.sounds.musicVolume = value;
         backgroundMusic.volume = value;
-        GameSettings.Save(gameSettings, GameSettingsManager.settingPath);
+        GameSettingsManager.SaveSettings();
     }
 
     public void SetSoundsEffectsVolume(float value)
     {
-        gameSettings.sounds.soundEffectsVolume = value;
-        GameSettings.Save(gameSettings, GameSettingsManager.settingPath);
+        GameSettingsManager.gameSettings.sounds.soundEffectsVolume = value;
+        GameSettingsManager.SaveSettings();
     }
 
     public void RebindControl(ControlAction rebindAction, KeyCode key)
@@ -60,27 +58,27 @@ public class MainMenuSettingsController : MonoBehaviour
         Debug.Log("rebind action: " + rebindAction.ToString() + " key code: " + key.ToString());
         switch (rebindAction) {
             case ControlAction.ACCELERATE:
-                gameSettings.controls.Accelerate = key;
+                GameSettingsManager.gameSettings.controls.Accelerate = key;
                 break;
             case ControlAction.DECELERATE:
-                gameSettings.controls.Decelerate = key;
+                GameSettingsManager.gameSettings.controls.Decelerate = key;
                 break;
             case ControlAction.PULL_UP:
-                gameSettings.controls.PullUp = key;
+                GameSettingsManager.gameSettings.controls.PullUp = key;
                 break;
             case ControlAction.PULL_DOWN:
-                gameSettings.controls.PullDown = key;
+                GameSettingsManager.gameSettings.controls.PullDown = key;
                 break;
             case ControlAction.TURN_LEFT:
-                gameSettings.controls.TurnLeft = key;
+                GameSettingsManager.gameSettings.controls.TurnLeft = key;
                 break;
             case ControlAction.TURN_RIGHT:
-                gameSettings.controls.TurnRight = key;
+                GameSettingsManager.gameSettings.controls.TurnRight = key;
                 break;
             default:
                 break;
         }
 
-        GameSettings.Save(gameSettings, GameSettingsManager.settingPath);
+        GameSettingsManager.SaveSettings();
     }
 }

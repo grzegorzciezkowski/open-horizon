@@ -32,12 +32,15 @@ namespace Assets.Scripts.Settings
                 string json = System.IO.File.ReadAllText(filePath);
                 return JsonUtility.FromJson<GameSettings>(json);
             }
-            return new GameSettings();
+            return Default();
         }
-    }
 
-    public class GameSettingsManager
-    {
-        public static string settingPath = Application.persistentDataPath + "/settings.json";
+        private static GameSettings Default() {
+            GameSettings gameSettings = new GameSettings();
+            gameSettings.graphics = new GraphicsSettings();
+            gameSettings.sounds = new SoundsSettings();
+            gameSettings.controls = new ControlsSettings();
+            return gameSettings;
+        }
     }
 }

@@ -4,6 +4,7 @@
 - Classes:
   - Mono-behaviours:
     - [ExitGame](classes/ExitGame.md)
+    - [GameManager](classes/GameController.md)
     - [InputControl](classes/InputControl.md)
     - [MainMenuSettingsControl](classes/MainMenuSettingsController.md)
     - [PanelSwitcher](classes/PanelSwitcher.md)
@@ -13,6 +14,7 @@
   - Settings:
     - [ControlsSettings](classes/settings/ControlsSettings.md) 
     - [GameSettings](classes/settings/GameSettings.md)
+    - [GameSettingsManager](classes/settings/GameSettingsManager.md)
     - [GraphicsSettings](classes/settings/GraphicsSettings.md)
     - [SoundsSettings](classes/settings/SoundsSettings.md)
 - Enums:
