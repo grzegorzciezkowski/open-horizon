@@ -4,6 +4,12 @@ using Assets.Scripts.Settings;
 public class SinglePlayerController : MonoBehaviour
 {
     public GameObject Vessel;
+    public GameObject Follower;
+    public Camera MainCamera;
+    public float sensivity = 1000f;
+    public float zoomSpeed = 10f;
+    public float minFov = 10f;
+    public float maxFov = 60f;
 
     private Spacecraft mSpacecraft;
 
@@ -13,6 +19,13 @@ public class SinglePlayerController : MonoBehaviour
     }
 
     void Update()
+    {
+        VesselControl();
+        CameraMovement();
+        CameraZoom();
+    }
+
+    void VesselControl()
     {
         if (GameSettingsManager.gameSettings != null)
         {
@@ -42,6 +55,37 @@ public class SinglePlayerController : MonoBehaviour
             {
                 mSpacecraft.PullDown();
             }
+        }
+    }
+
+    void CameraMovement()
+    {
+        if (Input.GetMouseButton(2))
+        {
+            float rotX = Input.GetAxis("Mouse X") * sensivity * Time.deltaTime;
+            float rotY = Input.GetAxis("Mouse Y") * sensivity * Time.deltaTime;
+
+            Follower.transform.Rotate(Vector3.up, -rotX, Space.World);
+            Follower.transform.Rotate(Vector3.right, rotY, Space.Self);
+        }
+        if (Input.GetMouseButtonDown(2))
+        {
+            Cursor.lockState = CursorLockMode.Locked;
+        }
+        if (Input.GetMouseButtonUp(2))
+        {
+            Cursor.lockState = CursorLockMode.None;
+        }
+    }
+
+    void CameraZoom() {
+        float scroll = Input.GetAxis("Mouse ScrollWheel");
+        if (scroll != 0.0f)
+        {
+            float fov = MainCamera.fieldOfView;
+            fov -= scroll * zoomSpeed;
+            fov = Mathf.Clamp(fov, minFov, maxFov);
+            MainCamera.fieldOfView = fov;
         }
     }
 }

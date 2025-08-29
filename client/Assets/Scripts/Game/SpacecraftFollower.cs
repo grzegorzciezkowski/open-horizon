@@ -14,6 +14,5 @@ public class SpacecraftFollower : MonoBehaviour
     void Update()
     {
         transform.position = spacecraft.transform.position;
-        transform.eulerAngles = spacecraft.transform.eulerAngles;
     }
 }
