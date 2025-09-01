@@ -1,5 +1,7 @@
 # Technical documentation
 
+- Architecture Decision Log (ADL)
+  - [2025-09-01 How to store translations?](adl/2025-09-01.md)
 - [Scenes](scenes.md)
 - Classes:
   - Mono-behaviours:
