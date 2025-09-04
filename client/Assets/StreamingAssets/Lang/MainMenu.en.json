@@ -1,0 +1,116 @@
+{
+  "translations": [
+    {
+      "key": "MainMenu.Header",
+      "value": "Main Menu"
+    },
+    {
+      "key": "MainMenu.Continue",
+      "value": "Continue"
+    },
+    {
+      "key": "MainMenu.SinglePlayer",
+      "value": "Single Player"
+    },
+    {
+      "key": "MainMenu.MultiPlayer",
+      "value": "Multi Player"
+    },
+    {
+      "key": "MainMenu.Options",
+      "value": "Options"
+    },
+    {
+      "key": "MainMenu.CommunityHub",
+      "value": "Community Hub"
+    },
+    {
+      "key": "MainMenu.ExitGame",
+      "value": "Exit Game"
+    },
+    {
+      "key": "SinglePlayer.Header",
+      "value": "Single Player"
+    },
+    {
+      "key": "SinglePlayer.StartCampaign",
+      "value": "Iniciar Campaña"
+    },
+    {
+      "key": "SinglePlayer.LoadGame",
+      "value": "Load Game"
+    },
+    {
+      "key": "Options.Header",
+      "value": "Options"
+    },
+    {
+      "key": "Options.Graphics",
+      "value": "Graphics"
+    },
+    {
+      "key": "Options.Sounds",
+      "value": "Sound"
+    },
+    {
+      "key": "Options.Controls",
+      "value": "Controls"
+    },
+    {
+      "key": "Options.Language",
+      "value": "Language"
+    },
+    {
+      "key": "Graphics.Header",
+      "value": "Graphics"
+    },
+    {
+      "key": "Sounds.Header",
+      "value": "Sounds"
+    },
+    {
+      "key": "Sounds.MusicVolume",
+      "value": "Music Volume"
+    },
+    {
+      "key": "Sounds.SoundEffectsVolume",
+      "value": "Sound Effects Volume"
+    },
+    {
+      "key": "Controls.Header",
+      "value": "Controls"
+    },
+    {
+      "key": "Controls.Accelerate",
+      "value": "Accelerate"
+    },
+    {
+      "key": "Controls.Decelerate",
+      "value": "Decelerate"
+    },
+    {
+      "key": "Controls.PullUp",
+      "value": "Pull Up"
+    },
+    {
+      "key": "Controls.PullDown",
+      "value": "Pull Down"
+    },
+    {
+      "key": "Controls.TurnLeft",
+      "value": "Turn Left"
+    },
+    {
+      "key": "Controls.TurnRight",
+      "value": "Turn Right"
+    },
+    {
+      "key": "Language.Header",
+      "value": "Language"
+    },
+    {
+      "key": "Common.Back",
+      "value": "Back"
+    }
+  ]
+}

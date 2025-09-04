@@ -1,0 +1,116 @@
+﻿{
+  "translations": [
+    {
+      "key": "MainMenu.Header",
+      "value": "Menu Główne"
+    },
+    {
+      "key": "MainMenu.Continue",
+      "value": "Kontynuuj"
+    },
+    {
+      "key": "MainMenu.SinglePlayer",
+      "value": "Jeden Gracz"
+    },
+    {
+      "key": "MainMenu.MultiPlayer",
+      "value": "Rozgrywka wieloosobowa"
+    },
+    {
+      "key": "MainMenu.Options",
+      "value": "Opcje"
+    },
+    {
+      "key": "MainMenu.CommunityHub",
+      "value": "Hub społecznościowy"
+    },
+    {
+      "key": "MainMenu.ExitGame",
+      "value": "Wyjdź z Gry"
+    },
+    {
+      "key": "SinglePlayer.Header",
+      "value": "Jeden Gracz"
+    },
+    {
+      "key": "SinglePlayer.StartCampaign",
+      "value": "Rozpocznij Kampanię"
+    },
+    {
+      "key": "Options.Header",
+      "value": "Opcje"
+    },
+    {
+      "key": "Options.Graphics",
+      "value": "Grafika"
+    },
+    {
+      "key": "Options.Sounds",
+      "value": "Dźwięk"
+    },
+    {
+      "key": "Options.Controls",
+      "value": "Sterowanie"
+    },
+    {
+      "key": "Options.Language",
+      "value": "Język"
+    },
+    {
+      "key": "Graphics.Header",
+      "value": "Grafika"
+    },
+    {
+      "key": "Sounds.Header",
+      "value": "Dźwiek"
+    },
+    {
+      "key": "Sounds.MusicVolume",
+      "value": "Głośność muzyki"
+    },
+    {
+      "key": "Sounds.SoundEffectsVolume",
+      "value": "Głośność efektów dźwiękowych"
+    },
+    {
+      "key": "Controls.Header",
+      "value": "Sterowanie"
+    },
+    {
+      "key": "Controls.Accelerate",
+      "value": "Przyspiesz"
+    },
+    {
+      "key": "Controls.Decelerate",
+      "value": "Zwolnij"
+    },
+    {
+      "key": "Controls.PullUp",
+      "value": "Wciągnij w górę"
+    },
+    {
+      "key": "Controls.PullDown",
+      "value": "Opuść w dół"
+    },
+    {
+      "key": "Controls.TurnLeft",
+      "value": "Skręć w lewo"
+    },
+    {
+      "key": "Controls.TurnRight",
+      "value": "Skręć w prawo"
+    },
+    {
+      "key": "SinglePlayer.LoadGame",
+      "value": "Wczytaj grę"
+    },
+    {
+      "key": "Language.Header",
+      "value": "Język"
+    },
+    {
+      "key": "Common.Back",
+      "value": "Wstecz"
+    }
+  ]
+}

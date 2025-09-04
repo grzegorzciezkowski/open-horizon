@@ -18,11 +18,19 @@ public class MainMenuSettingsController : MonoBehaviour
     public TMP_InputField turnLeft;
     public TMP_InputField turnRight;
 
+    public TMP_Dropdown languageDropdown;
+
+    public LanguageController languageController;
+
+    const string TRANSLATION_CATEGORY = "MainMenu";
+
     void Start()
     {
+        Debug.Log("Main Menu Settings Controller");
         GameSettingsManager.LoadSettings();
 
         antiAliasingInput.value = (int)GameSettingsManager.gameSettings.graphics.antiAliasing;
+
         musicVolumeInput.value = GameSettingsManager.gameSettings.sounds.musicVolume;
         soundEffectVolumeInput.value = GameSettingsManager.gameSettings.sounds.soundEffectsVolume;
 
@@ -32,6 +40,11 @@ public class MainMenuSettingsController : MonoBehaviour
         pullDownInput.text = GameSettingsManager.gameSettings.controls.PullDown.ToString();
         turnLeft.text = GameSettingsManager.gameSettings.controls.TurnLeft.ToString();
         turnRight.text = GameSettingsManager.gameSettings.controls.TurnRight.ToString();
+
+        languageDropdown.value = LanguageSettings.LangCodeToIndex(GameSettingsManager.gameSettings.language.Lang);
+
+        LanguageManager.LoadTranslations(GameSettingsManager.gameSettings.language.Lang, TRANSLATION_CATEGORY);
+        languageController.ApplyTranslations();
     }
 
     public void SetAntiAliasing(int optionIndex)
@@ -80,5 +93,14 @@ public class MainMenuSettingsController : MonoBehaviour
         }
 
         GameSettingsManager.SaveSettings();
+    }
+
+    public void SetLanguage()
+    {
+        int optionIndex = languageDropdown.value;
+        GameSettingsManager.gameSettings.language.Lang = LanguageSettings.IndexToLangCode(optionIndex);
+        GameSettingsManager.SaveSettings();
+        LanguageManager.LoadTranslations(GameSettingsManager.gameSettings.language.Lang, TRANSLATION_CATEGORY);
+        languageController.ApplyTranslations();
     }
 }

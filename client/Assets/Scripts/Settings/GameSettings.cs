@@ -14,6 +14,7 @@ namespace Assets.Scripts.Settings
         public GraphicsSettings graphics;
         public SoundsSettings sounds;
         public ControlsSettings controls;
+        public LanguageSettings language;
 
         public static void Save(GameSettings data, string filePath)
         {
@@ -40,6 +41,7 @@ namespace Assets.Scripts.Settings
             gameSettings.graphics = new GraphicsSettings();
             gameSettings.sounds = new SoundsSettings();
             gameSettings.controls = new ControlsSettings();
+            gameSettings.language = new LanguageSettings();
             return gameSettings;
         }
     }

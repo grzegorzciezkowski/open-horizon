@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/schemas/mainmenu.localization.schema.json",
+  "title": "Localization",
+  "description": "List of key value pairs",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "translations": {
+      "type": "array",
+      "additionalProperties": false,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "key": {
+            "type": "string",
+            "description": "Description key",
+            "minLength": 1
+          },
+          "value": {
+            "type": "string",
+            "description": "Translated text"
+          }
+        }
+      },
+      "required": ["key", "value"]
+    }
+  },
+  "required": ["translations"]
+}

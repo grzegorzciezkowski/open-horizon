@@ -1,0 +1,116 @@
+﻿{
+  "translations": [
+    {
+      "key": "MainMenu.Header",
+      "value": "Menú Principal"
+    },
+    {
+      "key": "MainMenu.Continue",
+      "value": "Continuar"
+    },
+    {
+      "key": "MainMenu.SinglePlayer",
+      "value": "Un Jugador"
+    },
+    {
+      "key": "MainMenu.MultiPlayer",
+      "value": "Multijugador"
+    },
+    {
+      "key": "MainMenu.Options",
+      "value": "Opciones"
+    },
+    {
+      "key": "MainMenu.CommunityHub",
+      "value": "Centro de la Comunidad"
+    },
+    {
+      "key": "MainMenu.ExitGame",
+      "value": "Salir del Juego"
+    },
+    {
+      "key": "SinglePlayer.Header",
+      "value": "Un Jugador"
+    },
+    {
+      "key": "SinglePlayer.StartCampaign",
+      "value": "Iniciar Campaña"
+    },
+    {
+      "key": "SinglePlayer.LoadGame",
+      "value": "Cargar Juego"
+    },
+    {
+      "key": "Options.Header",
+      "value": "Opciones"
+    },
+    {
+      "key": "Options.Graphics",
+      "value": "Gráficos"
+    },
+    {
+      "key": "Options.Sounds",
+      "value": "Sonido"
+    },
+    {
+      "key": "Options.Controls",
+      "value": "Controles"
+    },
+    {
+      "key": "Options.Language",
+      "value": "Idioma"
+    },
+    {
+      "key": "Graphics.Header",
+      "value": "Gráficos"
+    },
+    {
+      "key": "Sounds.Header",
+      "value": "Sonido"
+    },
+    {
+      "key": "Sounds.MusicVolume",
+      "value": "Volumen de la música"
+    },
+    {
+      "key": "Sounds.SoundEffectsVolume",
+      "value": "Volumen de los efectos de sonido"
+    },
+    {
+      "key": "Controls.Header",
+      "value": "Controles"
+    },
+    {
+      "key": "Controls.Accelerate",
+      "value": "Acelerar"
+    },
+    {
+      "key": "Controls.Decelerate",
+      "value": "Desacelerar"
+    },
+    {
+      "key": "Controls.PullUp",
+      "value": "Ascender"
+    },
+    {
+      "key": "Controls.PullDown",
+      "value": "Descender"
+    },
+    {
+      "key": "Controls.TurnLeft",
+      "value": "Girar a la izquierda"
+    },
+    {
+      "key": "Controls.TurnRight",
+      "value": "Girar a la derecha"
+    },
+    {
+      "key": "Language.Header",
+      "value": "Idioma"
+    },
+    {
+      "key": "Common.Back",
+      "value": "Atrás"
+    }
+  ]
+}
