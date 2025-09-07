@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using UnityEngine;
 using Unity.VisualScripting;
 using System.IO;
+using UnityEngine.UIElements;
 
 namespace Assets.Scripts.Settings
 {
@@ -45,9 +46,34 @@ namespace Assets.Scripts.Settings
             }
         }
 
+
+
         public static void UnloadTranslations()
         {
             translations = new Dictionary<string, string>();
+        }
+        
+        // Get translation from the key with parameters
+        public static string Translate(string key, Dictionary<string, string> keyValues)
+        {
+            string template = translations[key];
+            return replacePlaceholders(template, keyValues);
+        }
+
+        private static string replacePlaceholders(string template, Dictionary<string, string> parameters)
+        {
+            if (string.IsNullOrEmpty(template) || parameters == null)
+                return template;
+
+            string result = template;
+
+            foreach (var kvp in parameters)
+            {
+                string placeholder = $"{{{{{kvp.Key}}}}}"; // np. {{NAME}}
+                result = result.Replace(placeholder, kvp.Value);
+            }
+
+            return result;
         }
     }
 }

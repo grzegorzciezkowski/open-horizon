@@ -1,0 +1,40 @@
+{
+  "translations": [
+    {
+      "key": "Prolog.FirstAIWarning",
+      "value": "Advertencia: No se han detectado sistemas defensivos. La ley de la Coalición exige un registro inmediato."
+    },
+    {
+      "key": "Prolog.FirstAdmiralMessage",
+      "value": "Habla el almirante Veynar de la Coalición. Has cruzado la Puerta Génesis. El acceso es unidireccional, y desde ahora quedas bajo nuestra jurisdicción. Identifícate de inmediato."
+    },
+    {
+      "key": "Prolog.AdmiralWelcomeMessage",
+      "value": "Registro completado. Capitán {{NAME}}, su identidad ha sido registrada. Puede dirigirse a Horizon Prime, pero recuerde: más allá de este punto, dependerá solo de usted."
+    },
+    {
+      "key": "Prolog.ActivateIdentityProtocol",
+      "value": "Iniciar protocolo de identidad"
+    },
+    {
+      "key": "Prolog.IdentityProtocol",
+      "value": "Protocolo de Identidad"
+    },
+    {
+      "key": "Prolog.NameLabel",
+      "value": "Nombre"
+    },
+    {
+      "key": "Prolog.EnterName",
+      "value": "Ingresa Nombre"
+    },
+    {
+      "key": "Prolog.Gender",
+      "value": "Género"
+    },
+    {
+      "key": "Prolog.ConfirmIdentity",
+      "value": "Confirmar Identidad"
+    }
+  ]
+}

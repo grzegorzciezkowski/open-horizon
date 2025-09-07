@@ -1,0 +1,40 @@
+{
+  "translations": [
+    {
+      "key": "Prolog.FirstAIWarning",
+      "value": "Warning: No defensive systems detected. Coalition law requires immediate registration."
+    },
+    {
+      "key": "Prolog.FirstAdmiralMessage",
+      "value": "This is Admiral Veynar of the Coalition. You have crossed the Genesis Gate. Access is one-way, and you now fall under our jurisdiction. Identify yourself immediately."
+    },
+    {
+      "key": "Prolog.AdmiralWelcomeMessage",
+      "value": "Registry complete. Captain {{NAME}}, your identity is now logged. You may proceed to Horizon Prime — but remember, beyond this point, you are on your own."
+    },
+    {
+      "key": "Prolog.ActivateIdentityProtocol",
+      "value": "Initialize Identity Protocol"
+    },
+    {
+      "key": "Prolog.IdentityProtocol",
+      "value": "Identity Protocol"
+    },
+    {
+      "key": "Prolog.NameLabel",
+      "value": "Name"
+    },
+    {
+      "key": "Prolog.EnterName",
+      "value": "Enter Name"
+    },
+    {
+      "key": "Prolog.Gender",
+      "value": "Gender"
+    },
+    {
+      "key": "Prolog.ConfirmIdentity",
+      "value": "Confirm Identity"
+    }
+  ]
+}

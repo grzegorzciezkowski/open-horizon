@@ -1,0 +1,12 @@
+{
+  "translations": [
+    {
+      "key": "HUD.IncomingMessageNPC",
+      "value": "Nadchodząca transmisja"
+    },
+    {
+      "key": "HUD.Next",
+      "value": "Dalej"
+    }
+  ]
+}

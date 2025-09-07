@@ -1,0 +1,40 @@
+{
+  "translations": [
+    {
+      "key": "Prolog.FirstAIWarning",
+      "value": "Uwaga: Nie wykryto systemów obronnych. Prawo Koalicji wymaga natychmiastowej rejestracji."
+    },
+    {
+      "key": "Prolog.FirstAdmiralMessage",
+      "value": "Tu admirał Veynar z Koalicji. Przekroczyłeś Wrota Genesis. Dostęp jest jednokierunkowy i od tej chwili podlegasz naszej jurysdykcji. Natychmiast się zidentyfikuj."
+    },
+    {
+      "key": "Prolog.AdmiralWelcomeMessage",
+      "value": "Rejestracja zakończona. Kapitanie {{NAME}}, twoja tożsamość została zapisana. Możesz udać się do Horizon Prime — ale pamiętaj, dalej jesteś zdany tylko na siebie."
+    },
+    {
+      "key": "Prolog.ActivateIdentityProtocol",
+      "value": "Aktywuj protokół identyfikacji"
+    },
+    {
+      "key": "Prolog.IdentityProtocol",
+      "value": "Protokół Identyfikacji"
+    },
+    {
+      "key": "Prolog.NameLabel",
+      "value": "Imię"
+    },
+    {
+      "key": "Prolog.EnterName",
+      "value": "Wprowadź imię"
+    },
+    {
+      "key": "Prolog.Gender",
+      "value": "Płeć"
+    },
+    {
+      "key": "Prolog.ConfirmIdentity",
+      "value": "Potwierdź tożsamość"
+    }
+  ]
+}

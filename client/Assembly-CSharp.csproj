@@ -63,9 +63,11 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Settings\GameSettingsManager.cs" />
     <Compile Include="Assets\Scripts\Settings\LanguageController.cs" />
+    <Compile Include="Assets\Scripts\Game\SpacecraftAIText.cs" />
     <Compile Include="Assets\Scripts\MainMenu\ExitGame.cs" />
     <Compile Include="Assets\Scripts\Settings\ControlsSettings.cs" />
     <Compile Include="Assets\Scripts\Settings\GraphicsSettings.cs" />
+    <Compile Include="Assets\Scripts\Game\IncomeMessageNPC.cs" />
     <Compile Include="Assets\Scripts\MainMenu\InputControl.cs" />
     <Compile Include="Assets\Scripts\MainMenu\MainMenuSettingsController.cs" />
     <Compile Include="Assets\Scripts\Game\SinglePlayerController.cs" />
@@ -76,9 +78,11 @@
     <Compile Include="Assets\Scripts\MainMenu\PanelSwitcher.cs" />
     <Compile Include="Assets\Scripts\MainMenu\LocalizedText.cs" />
     <Compile Include="Assets\Scripts\Game\GameController.cs" />
+    <Compile Include="Assets\Scripts\Game\ConfirmIdentityBtn.cs" />
     <Compile Include="Assets\Scripts\Settings\SoundsSettings.cs" />
     <Compile Include="Assets\Scripts\Settings\LanguageManager.cs" />
     <Compile Include="Assets\Scripts\Settings\GameSettings.cs" />
+    <Compile Include="Assets\Scripts\Game\GameInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
