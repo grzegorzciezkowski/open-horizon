@@ -24,3 +24,6 @@ Provides:
 - data schemas (e.g., ships, factions, resources),
 - contribution guidelines for the open source community,
 - overview of the game’s storyline,
+
+## 4. Social media
+- [Youtube](https://www.youtube.com/@OpenHorizon-u6p)
