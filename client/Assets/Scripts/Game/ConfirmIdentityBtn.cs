@@ -23,6 +23,6 @@ public class ConfirmIdentityBtn : MonoBehaviour
             { "NAME", nameInput.text }
         };      
         string msg = LanguageManager.Translate("Prolog.AdmiralWelcomeMessage", keys);
-        incomeMessageNPC.ShowIncomeTransmission(msg, null);
+        incomeMessageNPC.ShowIncomeTransmission(msg, "NPC/AdmiralVeynar", null);
     }
 }
