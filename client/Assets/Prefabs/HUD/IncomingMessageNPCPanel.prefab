@@ -1027,6 +1027,7 @@ MonoBehaviour:
   messageContent: {fileID: 6931558331321836856}
   buttonContainer: {fileID: 3867209279961456130}
   buttonPrefab: {fileID: 8762010035025801605, guid: d7de0909126951b4d954513aa954a7aa, type: 3}
+  personImage: {fileID: 4233990959709295846}
 --- !u!1 &5559608042776953693
 GameObject:
   m_ObjectHideFlags: 0

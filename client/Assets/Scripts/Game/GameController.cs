@@ -31,7 +31,7 @@ public class GameController : MonoBehaviour
                     identityProtocolPanel.SetActive(true);
                 } }
             };
-            incomeMessageNPC.ShowIncomeTransmission(LanguageManager.translations["Prolog.FirstAdmiralMessage"], actions); 
+            incomeMessageNPC.ShowIncomeTransmission(LanguageManager.translations["Prolog.FirstAdmiralMessage"], "NPC/AdmiralVeynar", actions); 
         });
     }
 

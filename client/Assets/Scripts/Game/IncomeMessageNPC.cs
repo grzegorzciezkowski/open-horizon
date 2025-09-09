@@ -10,8 +10,9 @@ public class IncomeMessageNPC : MonoBehaviour
     public TMP_Text messageContent;
     public Transform buttonContainer;
     public GameObject buttonPrefab;
+    public RawImage personImage;
 
-    public void ShowIncomeTransmission(string text, Dictionary<string, Action> actions) { 
+    public void ShowIncomeTransmission(string text, string texture, Dictionary<string, Action> actions) { 
         gameObject.SetActive(true);
 
         messageContent.text = text;
@@ -19,6 +20,11 @@ public class IncomeMessageNPC : MonoBehaviour
         foreach (Transform child in buttonContainer)
         {
             Destroy(child.gameObject);
+        }
+
+        if (texture != null && texture != "")
+        {
+            personImage.texture = Resources.Load<Texture>("Images/" + texture);
         }
 
         if (actions == null)
