@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.Rendering.Universal;
 using Assets.Scripts.Settings;
+using Assets.Scripts.Translations;
 using System.Collections.Generic;
 using System;
 using Unity.VisualScripting;
@@ -19,19 +20,19 @@ public class GameController : MonoBehaviour
         GameSettingsManager.LoadSettings();
         SetCameraSettings();
 
-        LanguageManager.UnloadTranslations();
-        LanguageManager.LoadTranslations(GameSettingsManager.gameSettings.language.Lang, "GameHUD");
-        LanguageManager.LoadTranslations(GameSettingsManager.gameSettings.language.Lang, "Prolog");
+        TranslationManager.UnloadTranslations();
+        TranslationManager.LoadTranslations(GameSettingsManager.gameSettings.language.Lang, "GameHUD");
+        TranslationManager.LoadTranslations(GameSettingsManager.gameSettings.language.Lang, "Prolog");
 
-        spacecraftAIText.ShowMessage(LanguageManager.translations["Prolog.FirstAIWarning"], () => {
+        spacecraftAIText.ShowMessage(TranslationManager.translations["Prolog.FirstAIWarning"], () => {
             var actions = new Dictionary<string, Action>
             {
-                { LanguageManager.translations["Prolog.ActivateIdentityProtocol"], () => { 
+                { TranslationManager.translations["Prolog.ActivateIdentityProtocol"], () => { 
                     incomeMessageNPC.gameObject.SetActive(false);
                     identityProtocolPanel.SetActive(true);
                 } }
             };
-            incomeMessageNPC.ShowIncomeTransmission(LanguageManager.translations["Prolog.FirstAdmiralMessage"], "NPC/AdmiralVeynar", actions); 
+            incomeMessageNPC.ShowIncomeTransmission(TranslationManager.translations["Prolog.FirstAdmiralMessage"], "NPC/AdmiralVeynar", actions); 
         });
     }
 

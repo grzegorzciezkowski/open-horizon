@@ -2,6 +2,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using Assets.Scripts.Settings;
+using Assets.Scripts.Translations;
 
 public class MainMenuSettingsController : MonoBehaviour
 {
@@ -20,7 +21,7 @@ public class MainMenuSettingsController : MonoBehaviour
 
     public TMP_Dropdown languageDropdown;
 
-    public LanguageController languageController;
+    public TranslationController languageController;
 
     const string TRANSLATION_CATEGORY = "MainMenu";
 
@@ -43,7 +44,7 @@ public class MainMenuSettingsController : MonoBehaviour
 
         languageDropdown.value = LanguageSettings.LangCodeToIndex(GameSettingsManager.gameSettings.language.Lang);
 
-        LanguageManager.LoadTranslations(GameSettingsManager.gameSettings.language.Lang, TRANSLATION_CATEGORY);
+        TranslationManager.LoadTranslations(GameSettingsManager.gameSettings.language.Lang, TRANSLATION_CATEGORY);
         languageController.ApplyTranslations();
     }
 
@@ -100,7 +101,7 @@ public class MainMenuSettingsController : MonoBehaviour
         int optionIndex = languageDropdown.value;
         GameSettingsManager.gameSettings.language.Lang = LanguageSettings.IndexToLangCode(optionIndex);
         GameSettingsManager.SaveSettings();
-        LanguageManager.LoadTranslations(GameSettingsManager.gameSettings.language.Lang, TRANSLATION_CATEGORY);
+        TranslationManager.LoadTranslations(GameSettingsManager.gameSettings.language.Lang, TRANSLATION_CATEGORY);
         languageController.ApplyTranslations();
     }
 }
