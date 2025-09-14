@@ -1,8 +1,9 @@
-using Assets.Scripts.Settings;
+using Assets.Scripts.Translations;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
+[RequireComponent(typeof(TextMeshProUGUI))]
 public class LocalizedText : MonoBehaviour
 {
     public string TranslationKey;
@@ -30,9 +31,9 @@ public class LocalizedText : MonoBehaviour
             return;
         }
 
-        if(LanguageManager.translations.ContainsKey(TranslationKey))
+        if(TranslationManager.translations.ContainsKey(TranslationKey))
         {
-            m_TextMeshPro.text = LanguageManager.translations[TranslationKey];
+            m_TextMeshPro.text = TranslationManager.translations[TranslationKey];
         } else
         {
             m_TextMeshPro.text = DefaultText;

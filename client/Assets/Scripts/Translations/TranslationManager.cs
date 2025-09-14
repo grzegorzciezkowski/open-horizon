@@ -9,7 +9,7 @@ using Unity.VisualScripting;
 using System.IO;
 using UnityEngine.UIElements;
 
-namespace Assets.Scripts.Settings
+namespace Assets.Scripts.Translations
 {
     [Serializable]
     public class Translations
@@ -24,7 +24,7 @@ namespace Assets.Scripts.Settings
         public string value;
     }
 
-    public class LanguageManager
+    public class TranslationManager
     {
         public static Dictionary<string, string> translations = new Dictionary<string, string>();
 

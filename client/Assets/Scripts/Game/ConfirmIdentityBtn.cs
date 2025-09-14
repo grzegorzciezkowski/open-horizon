@@ -1,4 +1,4 @@
-using Assets.Scripts.Settings;
+using Assets.Scripts.Translations;
 using System.Collections.Generic;
 using TMPro;
 using UnityEditor.VersionControl;
@@ -22,7 +22,7 @@ public class ConfirmIdentityBtn : MonoBehaviour
         {
             { "NAME", nameInput.text }
         };      
-        string msg = LanguageManager.Translate("Prolog.AdmiralWelcomeMessage", keys);
+        string msg = TranslationManager.Translate("Prolog.AdmiralWelcomeMessage", keys);
         incomeMessageNPC.ShowIncomeTransmission(msg, "NPC/AdmiralVeynar", null);
     }
 }

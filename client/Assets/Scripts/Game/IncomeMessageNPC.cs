@@ -3,7 +3,7 @@ using TMPro;
 using UnityEngine.UI;
 using System.Collections.Generic;
 using System;
-using Assets.Scripts.Settings;
+using Assets.Scripts.Translations;
 
 public class IncomeMessageNPC : MonoBehaviour
 {
@@ -31,7 +31,7 @@ public class IncomeMessageNPC : MonoBehaviour
         {
             actions = new Dictionary<string, Action>
             {
-                { LanguageManager.Translate("HUD.Next", null), () => { } }
+                { TranslationManager.Translate("HUD.Next", null), () => { } }
             };
         }
 
