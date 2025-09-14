@@ -26,8 +26,10 @@ namespace Assets.Scripts.Translations
 
     public class TranslationManager
     {
+        // Dictionary with translations
         public static Dictionary<string, string> translations = new Dictionary<string, string>();
 
+        // Load translation file
         public static void LoadTranslations(string language, string category)
         {
             string translationPath = Application.streamingAssetsPath + "\\Lang\\" + category + "." + language + ".json";
@@ -47,7 +49,7 @@ namespace Assets.Scripts.Translations
         }
 
 
-
+        // Clear translation dictionary
         public static void UnloadTranslations()
         {
             translations = new Dictionary<string, string>();
@@ -58,6 +60,13 @@ namespace Assets.Scripts.Translations
         {
             string template = translations[key];
             return replacePlaceholders(template, keyValues);
+        }
+
+        // Get translation from the key. If the key does not exists it should return default value.
+        public static string TranslateWithDefault(string key, string defaultValue)
+        {
+            if(translations.ContainsKey(key)) return translations[key];
+            return defaultValue;
         }
 
         private static string replacePlaceholders(string template, Dictionary<string, string> parameters)

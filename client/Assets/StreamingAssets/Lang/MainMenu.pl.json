@@ -61,6 +61,18 @@
       "value": "Grafika"
     },
     {
+      "key": "Graphics.NoAntiAliasing",
+      "value": "Bez wygładzania krawędzi"
+    },
+    {
+      "key": "Graphics.FastAntiAliasing",
+      "value": "Szybkie wygładzanie krawędzi"
+    },
+    {
+      "key": "Graphics.FullAntiAliasing",
+      "value": "Pełne wygładzanie krawędzi"
+    },
+    {
       "key": "Sounds.Header",
       "value": "Dźwiek"
     },

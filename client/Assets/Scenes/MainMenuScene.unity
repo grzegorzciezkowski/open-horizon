@@ -6114,6 +6114,7 @@ GameObject:
   - component: {fileID: 976895165}
   - component: {fileID: 976895164}
   - component: {fileID: 976895163}
+  - component: {fileID: 976895166}
   m_Layer: 5
   m_Name: AntiAliassingDropdown
   m_TagString: Untagged
@@ -6257,6 +6258,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 976895161}
   m_CullTransparentMesh: 1
+--- !u!114 &976895166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 976895161}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 156e119607e3c144cbb0e4ebe79f27ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  localizedKeys:
+  - key: Graphics.NoAntiAliasing
+    defaultValue: No Ani-Aliasing
+  - key: Graphics.FastAntiAliasing
+    defaultValue: Fast Anti-Aliasing
+  - key: Graphics.FullAntiAliasing
+    defaultValue: Full Anti-Aliasing
 --- !u!1 &986216255
 GameObject:
   m_ObjectHideFlags: 0
