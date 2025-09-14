@@ -69,6 +69,7 @@
     <Compile Include="Assets\Scripts\Game\IncomeMessageNPC.cs" />
     <Compile Include="Assets\Scripts\Translations\LocalizedText.cs" />
     <Compile Include="Assets\Scripts\MainMenu\InputControl.cs" />
+    <Compile Include="Assets\Scripts\Translations\LocalizedDropdown.cs" />
     <Compile Include="Assets\Scripts\MainMenu\MainMenuSettingsController.cs" />
     <Compile Include="Assets\Scripts\Translations\TranslationController.cs" />
     <Compile Include="Assets\Scripts\Translations\TranslationManager.cs" />

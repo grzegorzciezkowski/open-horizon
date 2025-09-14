@@ -33,6 +33,18 @@
       "value": "Płeć"
     },
     {
+      "key": "Prolog.Gender.Male",
+      "value": "Mężczyzna"
+    },
+    {
+      "key": "Prolog.Gender.Female",
+      "value": "Kobieta"
+    },
+    {
+      "key": "Prolog.Gender.Other",
+      "value": "Inna"
+    },
+    {
       "key": "Prolog.ConfirmIdentity",
       "value": "Potwierdź tożsamość"
     }

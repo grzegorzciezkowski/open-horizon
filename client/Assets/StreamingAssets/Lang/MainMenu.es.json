@@ -65,6 +65,18 @@
       "value": "Gráficos"
     },
     {
+      "key": "Graphics.NoAntiAliasing",
+      "value": "Sin Anti-Aliasing"
+    },
+    {
+      "key": "Graphics.FastAntiAliasing",
+      "value": "Anti-Aliasing Rápido"
+    },
+    {
+      "key": "Graphics.FullAntiAliasing",
+      "value": "Anti-Aliasing Completo"
+    },
+    {
       "key": "Sounds.Header",
       "value": "Sonido"
     },

@@ -21,7 +21,7 @@ public class ConfirmIdentityBtn : MonoBehaviour
         Dictionary<string, string> keys = new Dictionary<string, string>
         {
             { "NAME", nameInput.text }
-        };      
+        };
         string msg = TranslationManager.Translate("Prolog.AdmiralWelcomeMessage", keys);
         incomeMessageNPC.ShowIncomeTransmission(msg, "NPC/AdmiralVeynar", null);
     }

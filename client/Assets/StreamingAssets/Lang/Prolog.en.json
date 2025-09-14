@@ -33,6 +33,18 @@
       "value": "Gender"
     },
     {
+      "key": "Prolog.Gender.Male",
+      "value": "Male"
+    },
+    {
+      "key": "Prolog.Gender.Female",
+      "value": "Female"
+    },
+    {
+      "key": "Prolog.Gender.Other",
+      "value": "Other"
+    },
+    {
       "key": "Prolog.ConfirmIdentity",
       "value": "Confirm Identity"
     }

@@ -1809,6 +1809,7 @@ GameObject:
   - component: {fileID: 1006533336}
   - component: {fileID: 1006533335}
   - component: {fileID: 1006533334}
+  - component: {fileID: 1006533337}
   m_Layer: 5
   m_Name: Dropdown
   m_TagString: Untagged
@@ -1940,6 +1941,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1006533332}
   m_CullTransparentMesh: 1
+--- !u!114 &1006533337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1006533332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 156e119607e3c144cbb0e4ebe79f27ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  localizedKeys:
+  - key: Prolog.Gender.Male
+    defaultValue: Male
+  - key: Prolog.Gender.Female
+    defaultValue: Female
+  - key: Prolog.Gender.Other
+    defaultValue: Other
 --- !u!1 &1027193866
 GameObject:
   m_ObjectHideFlags: 0
