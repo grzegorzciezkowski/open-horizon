@@ -9,8 +9,12 @@
       "value": "Tu admirał Veynar z Koalicji. Przekroczyłeś Wrota Genesis. Dostęp jest jednokierunkowy i od tej chwili podlegasz naszej jurysdykcji. Natychmiast się zidentyfikuj."
     },
     {
-      "key": "Prolog.AdmiralWelcomeMessage",
-      "value": "Rejestracja zakończona. Kapitanie {{NAME}}, twoja tożsamość została zapisana. Możesz udać się do Horizon Prime — ale pamiętaj, dalej jesteś zdany tylko na siebie."
+      "key": "Prolog.AdmiralWelcomeMessage.Male",
+      "value": "Rejestracja zakończona. Panie Kapitanie {{NAME}}, twoja tożsamość została zapisana. Możesz udać się do Horizon Prime — ale pamiętaj, dalej jesteś zdany tylko na siebie."
+    },
+    {
+      "key": "Prolog.AdmiralWelcomeMessage.Female",
+      "value": "Rejestracja zakończona. Pani Kapitan {{NAME}}, twoja tożsamość została zapisana. Możesz udać się do Horizon Prime — ale pamiętaj, dalej jesteś zdana tylko na siebie."
     },
     {
       "key": "Prolog.ActivateIdentityProtocol",

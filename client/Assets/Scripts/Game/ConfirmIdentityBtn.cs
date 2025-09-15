@@ -1,3 +1,4 @@
+using Assets.Scripts.Game;
 using Assets.Scripts.Translations;
 using System.Collections.Generic;
 using TMPro;
@@ -22,7 +23,14 @@ public class ConfirmIdentityBtn : MonoBehaviour
         {
             { "NAME", nameInput.text }
         };
-        string msg = TranslationManager.Translate("Prolog.AdmiralWelcomeMessage", keys);
+
+        string translationKey = "Prolog.AdmiralWelcomeMessage.Male";
+        if(controller.gameInfo.Gender == SinglePlayerGameInfo.GENDER_FEMALE)
+        {
+            translationKey = "Prolog.AdmiralWelcomeMessage.Female";
+        }
+
+        string msg = TranslationManager.Translate(translationKey, keys);
         incomeMessageNPC.ShowIncomeTransmission(msg, "NPC/AdmiralVeynar", null);
     }
 }

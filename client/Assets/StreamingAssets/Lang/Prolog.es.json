@@ -9,8 +9,12 @@
       "value": "Habla el almirante Veynar de la Coalición. Has cruzado la Puerta Génesis. El acceso es unidireccional, y desde ahora quedas bajo nuestra jurisdicción. Identifícate de inmediato."
     },
     {
-      "key": "Prolog.AdmiralWelcomeMessage",
+      "key": "Prolog.AdmiralWelcomeMessage.Male",
       "value": "Registro completado. Capitán {{NAME}}, su identidad ha sido registrada. Puede dirigirse a Horizon Prime, pero recuerde: más allá de este punto, dependerá solo de usted."
+    },
+    {
+      "key": "Prolog.AdmiralWelcomeMessage.Female",
+      "value": "Registro completado. Capitana {{NAME}}, su identidad ha sido registrada. Puede dirigirse a Horizon Prime, pero recuerde: más allá de este punto, dependerá solo de usted."
     },
     {
       "key": "Prolog.ActivateIdentityProtocol",
