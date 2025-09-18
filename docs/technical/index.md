@@ -1,7 +1,9 @@
 # Technical documentation
 
-- Architecture Decision Log (ADL)
-  - [2025-09-01 How to store translations?](adl/2025-09-01.md)
+- Architecture
+  - [Event storming](https://miro.com/welcomeonboard/VUYzOHB1cjdGdDZtalNlS0N1UGc0cktxb25IRDBUcE0yR2dkRnkwSGJRdnBsa01iSVU3a1ZGU3lIa1FoaEJ2TmpyRlFFYjhMMnFDVjlObkpaaUFmN3NUbU1OU1h5eHFPZFdwMzkwNVlDWkZLa1ExeHNZT1k5dU5LVkN2Q3kreFJNakdSWkpBejJWRjJhRnhhb1UwcS9BPT0hdjE=?share_link_id=90162673922)
+  - Architecture Decision Log (ADL)
+    - [2025-09-01 How to store translations?](adl/2025-09-01.md)
 - [Scenes](scenes.md)
 - Classes:
   - Mono-behaviours:
