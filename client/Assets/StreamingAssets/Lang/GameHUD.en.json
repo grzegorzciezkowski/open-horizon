@@ -7,6 +7,22 @@
     {
       "key": "HUD.Next",
       "value": "Next"
+    },
+    {
+      "key": "HUD.Speed",
+      "value": "Speed"
+    },
+    {
+      "key": "HUD.Shield",
+      "value": "Shield"
+    },
+    {
+      "key": "HUD.Armor",
+      "value": "Armor"
+    },
+    {
+      "key": "HUD.Cash",
+      "value": "Cash"
     }
   ]
 }

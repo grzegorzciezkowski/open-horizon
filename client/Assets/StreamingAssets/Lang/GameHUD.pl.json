@@ -7,6 +7,22 @@
     {
       "key": "HUD.Next",
       "value": "Dalej"
+    },
+    {
+      "key": "HUD.Speed",
+      "value": "Prędkość"
+    },
+    {
+      "key": "HUD.Shield",
+      "value": "Osłona"
+    },
+    {
+      "key": "HUD.Armor",
+      "value": "Pancerz"
+    },
+    {
+      "key": "HUD.Cash",
+      "value": "Gotówka"
     }
   ]
 }

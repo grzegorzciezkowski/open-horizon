@@ -149,7 +149,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 887e8ab780fc90e4789a9d00fbf287ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TranslationKey: GameHUD.Next
+  TranslationKey: HUD.Next
   DefaultText: Next
 --- !u!1 &8762010035025801605
 GameObject:

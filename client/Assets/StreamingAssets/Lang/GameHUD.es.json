@@ -3,6 +3,26 @@
     {
       "key": "HUD.IncomingMessageNPC",
       "value": "Transmisión entrante"
+    },
+    {
+      "key": "HUD.Next",
+      "value": "Siguiente"
+    },
+    {
+      "key": "HUD.Speed",
+      "value": "Velocidad"
+    },
+    {
+      "key": "HUD.Shield",
+      "value": "Escudo"
+    },
+    {
+      "key": "HUD.Armor",
+      "value": "Armadura"
+    },
+    {
+      "key": "HUD.Cash",
+      "value": "Effectivo"
     }
   ]
 }
