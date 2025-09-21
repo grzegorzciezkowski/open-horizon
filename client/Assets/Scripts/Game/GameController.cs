@@ -15,14 +15,19 @@ public class GameController : MonoBehaviour
     public GameObject identityProtocolPanel;
     public SinglePlayerGameInfo gameInfo;
 
+    private TranslationController translationController;
+
     void Start()
     {
+        translationController = gameObject.AddComponent<TranslationController>();
+
         GameSettingsManager.LoadSettings();
         SetCameraSettings();
 
         TranslationManager.UnloadTranslations();
         TranslationManager.LoadTranslations(GameSettingsManager.gameSettings.language.Lang, "GameHUD");
         TranslationManager.LoadTranslations(GameSettingsManager.gameSettings.language.Lang, "Prolog");
+        translationController.ApplyTranslations();
 
         spacecraftAIText.ShowMessage(TranslationManager.translations["Prolog.FirstAIWarning"], () => {
             var actions = new Dictionary<string, Action>

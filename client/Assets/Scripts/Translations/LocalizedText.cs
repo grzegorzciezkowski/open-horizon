@@ -37,6 +37,7 @@ public class LocalizedText : MonoBehaviour
         } else
         {
             m_TextMeshPro.text = DefaultText;
+            Debug.LogWarning("Translation key '" + TranslationKey + "' not found. GameObject: " + gameObject.name);
         }
     }
 }

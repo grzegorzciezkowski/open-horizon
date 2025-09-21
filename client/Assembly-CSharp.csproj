@@ -67,6 +67,7 @@
     <Compile Include="Assets\Scripts\Settings\ControlsSettings.cs" />
     <Compile Include="Assets\Scripts\Settings\GraphicsSettings.cs" />
     <Compile Include="Assets\Scripts\Game\IncomeMessageNPC.cs" />
+    <Compile Include="Assets\Scripts\Game\PlayerSpacecraftStatusPanel.cs" />
     <Compile Include="Assets\Scripts\Translations\LocalizedText.cs" />
     <Compile Include="Assets\Scripts\MainMenu\InputControl.cs" />
     <Compile Include="Assets\Scripts\Translations\LocalizedDropdown.cs" />
